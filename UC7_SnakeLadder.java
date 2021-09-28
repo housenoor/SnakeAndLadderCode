@@ -46,7 +46,7 @@
 						newPosition = -diceNum;
 						break;
 					}
-					 player2Position = player2Position + newPosition;
+					 player1Position = player2Position + newPosition;
 		                if (player1Position < 0) {
 		                    player1Position = 0;
 		                }
