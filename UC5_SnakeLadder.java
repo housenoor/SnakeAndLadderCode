@@ -44,7 +44,7 @@ package bridgelabzs;
 					System.out.println("Restart the game");
 					startPosition = 0;
 				}
-				if (startPosition > 100) {
+				if (startPosition < 100) {
 					startPosition = newPosition;
 }
 
