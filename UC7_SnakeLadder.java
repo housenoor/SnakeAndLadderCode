@@ -47,8 +47,8 @@
 						break;
 					}
 					 player2Position = player2Position + newPosition;
-		                if (player2Position < 0) {
-		                    player2Position = 0;
+		                if (player1Position < 0) {
+		                    player1Position = 0;
 		                }
 					if (player1Position > 100) {
 						player1Position = newPosition;
